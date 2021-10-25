@@ -18,7 +18,7 @@ import org.apache.logging.log4j.Logger;
 @RequestScoped
 public class VacanteForm extends Object {
 
-    @Inject       
+    @Inject
     private Candidato candidato;
 
     private boolean comentarioEnviado;
